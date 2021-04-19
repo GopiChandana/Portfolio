@@ -5,7 +5,7 @@ import styled from "styled-components";
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 25rem;
+  top: 22rem;
   z-index: 1;
   margin-top: -125px;
   text-align: center;

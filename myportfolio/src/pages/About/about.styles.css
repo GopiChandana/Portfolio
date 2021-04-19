@@ -1,0 +1,22 @@
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+  }
+  
+  .profile {
+    max-width: 17em;
+    /* box-shadow: 14px 19px 5px -2px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 14px 19px 5px -2px rgba(0,0,0,0.62);
+    -moz-box-shadow: 14px 19px 5px -2px rgba(0,0,0,0.62); */
+  }
+  
+  .my-details {
+    background-color: rgba(255, 255, 255, 0.747);
+    font-weight: 600;
+    /* box-shadow: 14px 19px 5px -2px rgba(0,0,0,0.62);
+   -webkit-box-shadow: 14px 19px 5px -2px rgba(0,0,0,0.62);
+   -moz-box-shadow: 14px 19px 5px -2px rgba(0,0,0,0.62); */
+   /* box-shadow: -21px 17px 25px -2px rgba(0,0,0,0.62);
+   -webkit-box-shadow: -21px 17px 25px -2px rgba(0,0,0,0.62);
+   -moz-box-shadow: -21px 17px 25px -2px rgba(0,0,0,0.62); */
+  }

@@ -1,6 +1,7 @@
 .nav-theme {
-    background-color:transparent;
-    font-size: 20px;  
+    background-color:rgba(8, 8, 8, 0.993);
+    font-size: 20px;
+    position: fixed;  
   }
 .heading{
   font-weight: bolder;
@@ -14,7 +15,7 @@
 }
 
   .animate-navbar {
-    /* box-shadow: 1px 1px 1px whitesmoke;  */
+     box-shadow: 1px 1px 1px black;
     animation: moveDown 0.5s ease-in-out;
   }
   

@@ -9,7 +9,7 @@ const MyNavbar = () => {
   <Navbar.Brand href="#home" className="heading">{"<GC/>"}</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="ml-auto">
+    <Nav className="ml-auto" >
       <Nav.Link href="#home" className="subheading">Home</Nav.Link>
       <Nav.Link href="#about" className="subheading">About</Nav.Link>
       <Nav.Link href="#skills" className="subheading">Skills</Nav.Link>
