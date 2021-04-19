@@ -1,13 +1,20 @@
 .nav-theme {
-    background-color: #101018f8;
-    font-size: 20px;
+    background-color:transparent;
+    font-size: 20px;  
   }
 .heading{
   font-weight: bolder;
   font-size: 25px;
-}  
+  color:"#F2AA4CFF" ;
+}
+.subheading{
+  font-weight: 500;
+  z-index: 9999999999;
+  color:black
+}
+
   .animate-navbar {
-    box-shadow: 1px 1px 1px #222;
+    /* box-shadow: 1px 1px 1px whitesmoke;  */
     animation: moveDown 0.5s ease-in-out;
   }
   
