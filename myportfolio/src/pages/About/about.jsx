@@ -20,41 +20,44 @@ const About = () => {
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className="justify-content-between p-3 my-details rounded">
+              <Row className="justify-content-center p-3 my-details rounded">
                
                I am an aspiring Full Stack Web Developer proficient in JavaScript Technologies across the MERN Stack(MongoDB, Express, React, and Node.js).
                 <br/><br/>Hands-on Experience building complete web applications with backend API systems.
                 <br />
                 <br/>
                 I merge a passion for usability and user experience with technical knowledge to create cool digital experiences.
-                <br /><br/>Loves the Combination of creative and Logical Problem-solving skills I get to use when writing code. And I love how there's always more to learn! 
+                <br /><br/>Loves the Combination of creative and Logical Problem solving skills I get to use when writing code. And I love how there's always more to learn! 
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                    <Button className="m-2" variant="outline-dark">
+                        GitHub
                       </Button>
+                     
                     </a>
                   </div>
                   <div>
                     <a href="https://drive.google.com/file/d/1Ibpfd8I3fiBGPkt858jject5TbenCASv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
+                    <Button className="m-2" variant="outline-info">
+                        LinkedIn
                       </Button>
+                     
                     </a>
                   </div>
                   <div>
                     <a href="https://github.com/GopiChandana" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        GitHub
+                    <Button className="m-2" variant="outline-success">
+                       Resume
                       </Button>
+                    
                     </a>
                   </div>
                   <div>
                     <a href="https://www.linkedin.com/in/gopichandana" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        LinkedIn
+                    <Button className="m-2" variant="outline-primary">
+                        Hire me
                       </Button>
                     </a>
                   </div>

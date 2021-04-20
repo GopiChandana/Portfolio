@@ -1,0 +1,26 @@
+.focus {
+    transition: transform 0.3s;
+  }
+  
+
+  
+  .card-title {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .image-style {
+    width: 3em;
+  }
+  
+  .font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .font-details-b {
+    font-size: 3em;
+    font-weight: 500;
+    color: #ffffff;
+  }

@@ -7,10 +7,13 @@ import About from "./pages/About/about";
 import Container from "react-bootstrap/Container";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
+import Skills from "./pages/Skills/skills";
+import TimeLine from "./components/Projects/projects";
 
 const App=() => {
   return (
-    <div >
+    <div className="App" style={{ position: "relative" }}>
      <MyNavbar/>
      <Title/>
      <MyCarousel/>
@@ -30,6 +33,18 @@ const App=() => {
           </div>
         </Parallax>
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
     </div>
   );
 }
