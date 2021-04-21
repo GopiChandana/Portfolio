@@ -9,7 +9,6 @@ import L_REACT_ROUTER from "../../images/skills/react-router.svg";
 import L_NODE_JS from "../../images/skills/nodejs.svg";
 import L_EXPRESS from "../../images/skills/express.svg";
 
-
 import L_MONGODB from "../../images/skills/mongodb.svg";
 
 import L_GIT from "../../images/skills/git-icon.svg";
@@ -17,8 +16,6 @@ import L_HEROKU from "../../images/skills/heroku.svg";
 
 import L_GITHUB_PAGES from "../../images/skills/github.svg";
 import L_JAVASCRIPT from "../../images/skills/javascript.svg";
-
-
 
 export const skills = {
   frontend: [
@@ -29,7 +26,8 @@ export const skills = {
       skillName: "HTML5",
     },
     {
-      link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+      link:
+        "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
@@ -64,7 +62,6 @@ export const skills = {
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
     },
-          
   ],
 
   backend: [
@@ -101,7 +98,7 @@ export const skills = {
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
-    }
+    },
   ],
   databases: [
     {

@@ -1,29 +1,29 @@
 .nav-theme {
-    background-color:rgba(8, 8, 8, 0.993);
-    font-size: 20px;
-    position: fixed;  
-  }
-.heading{
+  background-color: rgba(8, 8, 8, 0.993);
+  font-size: 20px;
+  position: fixed;
+}
+.heading {
   font-weight: bolder;
   font-size: 25px;
-  color:"#F2AA4CFF" ;
+  color: "#F2AA4CFF";
 }
-.subheading{
+.subheading {
   font-weight: 500;
   z-index: 9999999999;
-  color:black
+  color: black;
 }
 
-  .animate-navbar {
-     box-shadow: 1px 1px 1px black;
-    animation: moveDown 0.5s ease-in-out;
+.animate-navbar {
+  box-shadow: 1px 1px 1px black;
+  animation: moveDown 0.5s ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
   }
-  
-  @keyframes moveDown {
-    from {
-      transform: translateY(-5rem);
-    }
-    to {
-      transform: translateY(0rem);
-    }
+  to {
+    transform: translateY(0rem);
   }
+}

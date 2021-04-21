@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
@@ -13,7 +13,7 @@ const MyTitleMessage = styled.h1`
     font-size: 1.25em;
   }
   div {
-    color: ${props => props.theme.textColor};
+    color: ${(props) => props.theme.textColor};
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
@@ -27,32 +27,30 @@ const MyTitleMessage = styled.h1`
   }
 `;
 
-const Title = () => 
- (
-        <MyTitleMessage>
-        <div className="titleMessage">
-          <div className="heading">
-            <div className="main text-center mb-3">
-              Hello, I am
-              <br />
-              <span>
-                <strong>Gopi Chandana</strong>
-              </span>
-            </div>
-            <div className="sub">
-              <Typewriter
-                options={{
-                  strings: ["Web Developer", "Learner","Coder"],
-                  autoStart: true,
-                  loop: true,
-                  delay: 50
-                }}
-              />
-            </div>
-          </div>
+const Title = () => (
+  <MyTitleMessage>
+    <div className="titleMessage">
+      <div className="heading">
+        <div className="main text-center mb-3">
+          Hello, I am
+          <br />
+          <span>
+            <strong>Gopi Chandana</strong>
+          </span>
         </div>
-      </MyTitleMessage>
-    )
+        <div className="sub">
+          <Typewriter
+            options={{
+              strings: ["Web Developer", "Learner", "Coder"],
+              autoStart: true,
+              loop: true,
+              delay: 50,
+            }}
+          />
+        </div>
+      </div>
+    </div>
+  </MyTitleMessage>
+);
 
-
-export default Title
+export default Title;
