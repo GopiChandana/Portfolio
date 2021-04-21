@@ -4,7 +4,7 @@ import "./carousel.styles.css";
 import Slide1 from "../../images/carousel/key.jpg";
 import Slide2 from "../../images/carousel/lilliput.jpg";
 import Slide3 from "../../images/carousel/BLACKTXT.jpg";
-import ScrollDown from "../Scroll-down/scrolldown";
+
 const MyCarousel = () => {
   return (
     <div id="home">
@@ -19,7 +19,7 @@ const MyCarousel = () => {
           <img className="d-block w-100 slider-size" src={Slide3} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
-      <ScrollDown />
+      
     </div>
   );
 };

@@ -10,7 +10,8 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Skills from "./pages/Skills/skills";
 import TimeLine from "./components/Projects/projects";
-
+import Contact from "./pages/Contact/contact";
+import {Stats} from "./components/Gitstats/gitstats"
 const App=() => {
   return (
     <div className="App" style={{ position: "relative" }}>
@@ -44,6 +45,18 @@ const App=() => {
           <hr />
           <TimeLine />
         </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Stats />
+        </Fade>
+      </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Contact />
+        </Fade>
       </Container>
     </div>
   );

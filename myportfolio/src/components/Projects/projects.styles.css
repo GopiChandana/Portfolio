@@ -24,6 +24,10 @@ h1{
     max-width: 100%;
     
 }
+.imagefit{
+  object-fit: contain;
+    max-width: 100%;
+}
 .timeline {
   width: 90%;
   height: auto;

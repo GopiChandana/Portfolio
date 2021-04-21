@@ -6,8 +6,6 @@ import L_REACT from "../../images/skills/react.svg";
 import L_REDUX from "../../images/skills/redux.svg";
 import L_REACT_ROUTER from "../../images/skills/react-router.svg";
 
-import L_REACT_BOOTSTRAP from "../../images/skills/react-bootstrap.svg";
-import L_STYLED_COMPONENTS from "../../images/skills/styled-components.svg";
 import L_NODE_JS from "../../images/skills/nodejs.svg";
 import L_EXPRESS from "../../images/skills/express.svg";
 
