@@ -29,7 +29,7 @@ const Contact = () => {
 
             <div className="m-2">
               <a
-                href=" https://github.com/GopiChandana"
+                href="https://github.com/GopiChandana"
                 target="_blank"
                 rel="noopener noreferrer"
               >
