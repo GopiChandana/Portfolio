@@ -1,171 +1,55 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
-import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
-import { skills } from "./skills-data";
-
+import { AiFillHtml5 } from "react-icons/ai";
 import "./skills.styles.css";
-
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoSass } from "react-icons/io5";
+import { RiReactjsLine } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io5";
+import { SiMongodb } from "react-icons/si";
 const Skills = () => {
   return (
-    <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-      <CardDeck>
-        <Row className="d-flex justify-content-around">
-          <Col md={4}>
-            <Card className="focus mt-4 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  FRONT END
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.frontend.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        <b>{skill.skillName}</b>
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col md={4}>
-            <Card className="focus mt-4 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  BACK END
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.backend.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>
-                        <b>{skill.skillName}</b>
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-4 mb-2 ">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  HOSTING PLATFORMS
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.hostingPlatforms.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        <b>{skill.skillName}</b>
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col md={4}>
-            <Card className="focus mt-4 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  DATABASE
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.databases.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>
-                        <b>{skill.skillName}</b>
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-4 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  VERSION CONTROL
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  <span className="p-2">
-                    <a
-                      className="text-dark text-decoration-none"
-                      href={skills.versionControl[0].link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={skills.versionControl[0].imgSrc}
-                        alt={skills.versionControl[0].imgAltText}
-                        rounded
-                        className="image-style m-1"
-                      ></Image>{" "}
-                      <b>{skills.versionControl[0].skillName}</b>
-                    </a>
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </CardDeck>
+    <>
+    <div id="skills">
+    <h1 className="pt-3 text-center font-details pb-3">TECH STACK</h1>
+    <div class="flex-container">
+  <div class="flex-item-left">
+    <AiFillHtml5 size={98}  className="top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"8px"}}>HTML5</p>
     </div>
+    <div class="flex-item-left">
+    <FaCss3Alt  size={91} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"12px"}}>CSS3</p>
+    </div>
+    <div class="flex-item-left">
+    <IoLogoJavascript  size={88} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"12px"}}>Javascript</p>
+    </div>
+    <div class="flex-item-left">
+    <RiReactjsLine  size={100} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"7px"}}>React JS</p>
+    </div>
+    <div class="flex-item-left">
+    <IoLogoSass  size={96} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"5px"}}>Sass</p>
+    </div>
+    <div class="flex-item-left">
+    <SiRedux  size={89} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"12px"}}>Redux</p>
+    </div>
+   
+    <div class="flex-item-left">
+    <IoLogoNodejs  size={92} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"10px"}}>Node.js</p>
+    </div>
+    <div class="flex-item-left">
+    <SiMongodb  size={92} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"12px"}}>MongoDB</p>
+    </div>
+</div>
+</div>
+    </>
   );
 };
 

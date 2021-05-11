@@ -4,13 +4,13 @@ import Button from "react-bootstrap/Button";
 import sample from "../../images/projects/googlemeet.mp4";
 import sample1 from "../../images/projects/product-hunt-alpha.mp4";
 import sample2 from "../../images/projects/dineout.mp4";
-import sample3 from "../../images/projects/livechat.png";
+import sample3 from "../../images/projects/livechat.mp4";
 import "./projects.styles.css";
 
 const TimeLine = () => {
   return (
     <>
-      <h1 className="pt-3 text-center font-details pb-3">PROJECTS</h1>
+      <h1 className=" text-center font-details ">PROJECTS</h1><br/>
       <div className="container1" id="projects">
         <div className="timeline">
           <ul>
@@ -99,7 +99,9 @@ const TimeLine = () => {
               <div className="timeline-content">
                 <h1>LIVE CHAT</h1>
                 <div style={{ width: "fit-content" }}>
-                  <img className="imagefit" src={sample3} alt="livechatpic" />
+                  <video className="videoTag" autoPlay loop muted controls>
+                    <source src={sample3} type="video/mp4" />
+                  </video>
                 </div>
                 <p>
                   A Live chat application where we can chat with our friends in
@@ -120,7 +122,7 @@ const TimeLine = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div><br/>
     </>
   );
 };

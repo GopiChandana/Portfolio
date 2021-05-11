@@ -24,8 +24,9 @@ const App = () => {
       />
       <Title />
       <MyCarousel />
-
+          
       <div>
+        <br/>
         <Parallax
           blur={{ min: -30, max: 30 }}
           bgImage={require("./images/parallex/background.webp")}
@@ -34,7 +35,7 @@ const App = () => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
+              <Fade duration={150}>
                 <About />
               </Fade>
             </Container>
@@ -42,25 +43,25 @@ const App = () => {
         </Parallax>
       </div>
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+      <Fade duration={150}>
           <hr />
           <Skills />
-        </Slide>
+          </Fade>
       </Container>
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+      <Fade duration={150}>
           <hr />
           <TimeLine />
-        </Slide>
+          </Fade>
       </Container>
       <Container className="container-box rounded">
-        <Fade duration={500}>
+        <Fade duration={150}>
           <hr />
           <Stats />
         </Fade>
       </Container>
       <Container className="container-box rounded">
-        <Fade duration={500}>
+        <Fade duration={150}>
           <hr />
           <Contact />
         </Fade>
