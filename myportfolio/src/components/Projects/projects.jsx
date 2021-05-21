@@ -109,7 +109,7 @@ const TimeLine = () => {
                 </p>
                 <div>
                   <a
-                    href="https://github.com/GopiChandana/Real-Time-Chat-Application"
+                    href="https://github.com/GopiChandana/chat_application"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
