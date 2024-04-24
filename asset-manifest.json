@@ -1,29 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.1463bb8c.chunk.css",
-    "main.js": "/static/js/main.05506106.chunk.js",
-    "main.js.map": "/static/js/main.05506106.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b827ea2a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b827ea2a.js.map",
-    "static/js/2.140132e5.chunk.js": "/static/js/2.140132e5.chunk.js",
-    "static/js/2.140132e5.chunk.js.map": "/static/js/2.140132e5.chunk.js.map",
-    "static/js/3.e82d6d14.chunk.js": "/static/js/3.e82d6d14.chunk.js",
-    "static/js/3.e82d6d14.chunk.js.map": "/static/js/3.e82d6d14.chunk.js.map",
+    "main.css": "/static/css/main.31dc3af2.css",
+    "main.js": "/static/js/main.6618ea25.js",
+    "static/js/453.6d7e8bcd.chunk.js": "/static/js/453.6d7e8bcd.chunk.js",
+    "static/media/product-hunt-alpha.mp4": "/static/media/product-hunt-alpha.c2903f55fac3f86abd1b.mp4",
+    "static/media/dineout.mp4": "/static/media/dineout.8653074208d3931ec863.mp4",
+    "static/media/googlemeet.mp4": "/static/media/googlemeet.12673edf397266636636.mp4",
+    "static/media/livechat.mp4": "/static/media/livechat.da8b47167f67f7858508.mp4",
+    "static/media/pp3.jpg": "/static/media/pp3.98b291828d6370623924.jpg",
+    "static/media/key.jpg": "/static/media/key.487b00734a4ac50f00ed.jpg",
+    "static/media/background.webp": "/static/media/background.f68146215cd63c0647c5.webp",
     "index.html": "/index.html",
-    "static/css/main.1463bb8c.chunk.css.map": "/static/css/main.1463bb8c.chunk.css.map",
-    "static/js/2.140132e5.chunk.js.LICENSE.txt": "/static/js/2.140132e5.chunk.js.LICENSE.txt",
-    "static/media/background.webp": "/static/media/background.f6814621.webp",
-    "static/media/dineout.86530742.mp4": "/static/media/dineout.86530742.mp4",
-    "static/media/googlemeet.12673edf.mp4": "/static/media/googlemeet.12673edf.mp4",
-    "static/media/key.487b0073.jpg": "/static/media/key.487b0073.jpg",
-    "static/media/livechat.da8b4716.mp4": "/static/media/livechat.da8b4716.mp4",
-    "static/media/pp3.98b29182.jpg": "/static/media/pp3.98b29182.jpg",
-    "static/media/product-hunt-alpha.c2903f55.mp4": "/static/media/product-hunt-alpha.c2903f55.mp4"
+    "main.31dc3af2.css.map": "/static/css/main.31dc3af2.css.map",
+    "main.6618ea25.js.map": "/static/js/main.6618ea25.js.map",
+    "453.6d7e8bcd.chunk.js.map": "/static/js/453.6d7e8bcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b827ea2a.js",
-    "static/js/2.140132e5.chunk.js",
-    "static/css/main.1463bb8c.chunk.css",
-    "static/js/main.05506106.chunk.js"
+    "static/css/main.31dc3af2.css",
+    "static/js/main.6618ea25.js"
   ]
 }
