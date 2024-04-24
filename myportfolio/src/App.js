@@ -57,12 +57,6 @@ const App = () => {
       <Container className="container-box rounded">
         <Fade duration={150}>
           <hr />
-          <Stats />
-        </Fade>
-      </Container>
-      <Container className="container-box rounded">
-        <Fade duration={150}>
-          <hr />
           <Contact />
         </Fade>
       </Container>
